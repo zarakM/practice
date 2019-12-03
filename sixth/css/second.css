@@ -1,0 +1,62 @@
+/* body {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  padding: 50px;
+}
+
+.page {
+  border: 1px solid #665544;
+  background-color: #efefef;
+  padding: inherit;
+} */
+
+/* Hex code  */
+h1{
+    color: #ffffff;
+    background-color: tomato;
+    width: 70px;
+}
+
+/* Using RGB  */
+h2{
+    color: rgb(125, 255, 0);
+    background-color: teal;
+}
+
+/* BY name */
+h3{
+    color: greenyellow;
+    background-color: thistle;
+}
+
+.vote{
+    background-color: violet;
+    opacity: 80%;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

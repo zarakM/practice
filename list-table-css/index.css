@@ -1,0 +1,44 @@
+th{
+    background-color: khaki;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 8px;
+    border-bottom: 1px solid grey ;
+}
+
+table{
+    width: 300px;
+    /* border-collapse: collapse; */
+    empty-cells: hide;
+    /* border-spacing: 10px; */
+}
+
+td{
+    background-color: brown;
+    text-align: center;
+    padding-left: 15px;
+    border: 1px solid yellow ;
+}
+
+td:hover{
+    background-color: white;
+}
+.specific{
+    background-color: tomato;
+}
+
+.specific:hover{
+    background-color: yellowgreen;
+}
+
+
+
+ul{
+    list-style: circle inside;
+}
+
+ol{
+    list-style-type: lower-roman;
+    list-style-position: outside;
+    /* list-style-image: url("./images/border_one.png"); */
+}

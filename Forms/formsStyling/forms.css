@@ -1,0 +1,45 @@
+input[type="text"]{
+    font-size:120% ;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 2px solid #bdbdbd;
+    outline: none;
+    padding: 10px 10px 10px 40px;
+    border-radius: 6px;
+    background-image: url(./email.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+button{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    /* border: none; */
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: pink;
+
+}
+
+input[type="text"]::placeholder{
+    color: grey;
+}
+
+
+
+
+
+/* .one {
+    background-color: lightcoral;
+}
+
+.two {
+    color: green;
+} */

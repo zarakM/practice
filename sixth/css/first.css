@@ -1,0 +1,73 @@
+/* Universal Selector */
+* {
+  color: darkmagenta;
+}
+
+/* Type Selector */
+h1 {
+  color: darkolivegreen;
+}
+
+/* Class selector */
+.yell {
+  color: yellow;
+}
+
+.teal {
+  font-size: 20px;
+}
+
+/* Id selector */
+#heading {
+  color: thistle;
+  font-size: 30px;
+}
+
+/* Child Selector */
+li > a {
+  color: aqua;
+}
+
+/* Descadent Selector */
+p a {
+  color: blue;
+}
+
+/* Adjacent Sibling Selector  */
+h1 + p {
+  color: black;
+}
+
+h1 ~ p {
+  color: pink;
+}
+
+
+
+* {
+  font-family: Arial, Verdana, sans-serif;
+}
+h1 {
+  font-family: "Courier New", monospace;
+}
+i {
+  color: green;
+}
+i {
+  color: red;
+}
+b {
+  color: pink;
+}
+p b {
+  color: blue !important;
+}
+p b {
+  color: violet;
+}
+p#intro {
+  font-size: 100%;
+}
+p {
+  font-size: 75%;
+}

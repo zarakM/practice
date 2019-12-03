@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style type="text/css">
+      .dimension {
+        width: 400px;
+        height: 100px;
+        background-color: cadetblue;
+      }
+      .hide {
+        overflow: hidden;
+      }
+      .scroll {
+        overflow: scroll;
+
+        /* scroll bar positioning */
+        /* overflow: auto;
+          direction: rtl; */
+      }
+      .div {
+        min-width: 500px;
+        max-width: 1000px;
+        min-height: 100px;
+        max-height: 500px;
+        background-color: crimson;
+      }
+
+      .box {
+        margin: 20px;
+        border: 10px solid blueviolet;
+        padding: 10px;
+        /* padding: 50px; */
+        /* border: 10px dotted darkgreen; */
+        /* border-width: 10px;
+        background-color: darkgrey;
+
+        border-top-color: darkolivegreen;
+        border-bottom-color: darkblue;
+        border-left-color: darkgoldenrod;
+        border-right-color: darkkhaki; */
+
+        /* Shorthand property */
+        /* border-color: darkolivegreen darkkhaki darkblue darkgoldenrod; */
+      }
+      .ridge {
+        border-style: ridge;
+      }
+      .inset {
+        border-style: inset;
+      }
+      .outset {
+        border-style: outset;
+      }
+
+      .box1 {
+        text-align: center;
+
+        /* padding-left: 50px;
+
+          margin: 10px 20px 30px 40px; */
+      }
+
+      .box2 {
+        padding-right: 50px;
+      }
+
+      .box3 {
+        padding-bottom: 50px;
+      }
+
+      .box4 {
+        padding-top: 50px;
+      }
+      li {
+        display: inline;
+      }
+      .design {
+        display: inline;
+        margin: 50px;
+        background-color: coral;
+      }
+
+      .hidden {
+        visibility: hidden;
+      }
+      .delete {
+        display: none;
+      }
+
+      /* .one {
+        height: 100px;
+        width: 100px;
+        background-color: blueviolet;
+        border-image: url("https://mdn.mozillademos.org/files/6015/border-image-5.png");
+        border: 10px dotted darkblue;
+        border-radius: 100px;
+        height: 100px;
+        width: 100px;
+      } */
+
+      .one {
+        /* background-color: tomato; */
+        height: 200px;
+        width: 600px;
+        border: 100px solid transparent;
+        border-image: url("./images/border_one.png") 30 repeat ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one"> </div>
+    <p class="two"></p>
+    <p class="three"></p>
+
+    <!-- <ul>
+      <li><a href="https://www.google.com" target="_blank">Google</a></li>
+      <li class="hidden"><a href="https://www.google.com">html</a></li>
+      <li><a href="https://www.google.com">css</a></li>
+      <li class="delete"><a href="https://www.google.com">fb</a></li>
+      <li><a href="https://www.google.com">Go</a></li>
+    </ul> -->
+    <!-- 
+        <p class="box1">
+      The most popular ways to specify the size of a box are to use pixels,
+      percentages, or ems. Traditionally, pixels have been the most popular
+      method because they allow designers to accurately control their size.
+    </p>
+    <p class="box2">
+      The most popular ways to specify the size of a box are to use pixels,
+      percentages, or ems. Traditionally, pixels have been the most popular
+      method because they allow designers to accurately control their size.
+    </p>
+    <p class="box3">
+      The most popular ways to specify the size of a box are to use pixels,
+      percentages, or ems. Traditionally, pixels have been the most popular
+      method because they allow designers to accurately control their size.
+    </p>
+    <p class="box4">
+      The most popular ways to specify the size of a box are to use pixels,
+      percentages, or ems. Traditionally, pixels have been the most popular
+      method because they allow designers to accurately control their size.
+    </p> -->
+
+    <!-- <p class="box">
+      The most popular ways to specify the size of a box are to use pixels,
+      percentages, or ems. Traditionally, pixels have been the most popular
+      method because they allow designers to accurately control their size.
+    </p>
+
+    <p class="box inset">
+      The most popular ways to specify the size of a box are to use pixels,
+      percentages, or ems. Traditionally, pixels have been the most popular
+      method because they allow designers to accurately control their size.
+    </p>
+
+    <p class="box outset">
+      The most popular ways to specify the size of a box are to use pixels,
+      percentages, or ems. Traditionally, pixels have been the most popular
+      method because they allow designers to accurately control their size.
+    </p> -->
+
+    <!-- 
+    <p class="dimension hide">
+      The most popular ways to specify the size of a box are to use pixels,
+      percentages, or ems. Traditionally, pixels have been the most popular
+      method because they allow designers to accurately control their size. When
+      you use percentages, the size of the box is relative to the size of the
+      browser window or, if the box is encased within another box, it is a
+      percentage of the size of the containing box. The most popular ways to
+      specify the size of a box are to use pixels, percentages, or ems.
+      Traditionally, pixels have been the most popular method because they allow
+      designers to accurately control their size. When you use percentages, the
+      size of the box is relative to the size of the browser window or, if the
+      box is encased within another box, it is a percentage of the size of the
+      containing box.
+    </p>
+    <p class="dimension scroll">
+      The most popular ways to specify the size of a box are to use pixels,
+      percentages, or ems. Traditionally, pixels have been the most popular
+      method because they allow designers to accurately control their size. When
+      you use percentages, the size of the box is relative to the size of the
+      browser window or, if the box is encased within another box, it is a
+      percentage of the size of the containing box.
+    </p>
+    <p class="dimension">
+      The most popular ways to specify the size of a box are to use pixels,
+      percentages, or ems. Traditionally, pixels have been the most popular
+      method because they allow designers to accurately control their size. When
+      you use percentages, the size of the box is relative to the size of the
+      browser window or, if the box is encased within another box, it is a
+      percentage of the size of the containing box.
+    </p> -->
+
+    <!-- <div class="div">
+
+      </div>
+
+      
+    <p class="dimension">
+      The most popular ways to specify the size of a box are to use pixels,
+      percentages, or ems. Traditionally, pixels have been the most popular
+      method because they allow designers to accurately control their size. When
+      you use percentages, the size of the box is relative to the size of the
+      browser window or, if the box is encased within another box, it is a
+      percentage of the size of the containing box.
+    </p> -->
+  </body>
+</html>
