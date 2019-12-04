@@ -1,0 +1,31 @@
+fieldset {
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: grey;
+
+}
+
+legend {
+    background-color: darkgrey;
+    text-transform: uppercase;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.first {
+    position: relative;
+    margin-left: 20px;
+    border: 2px solid red;
+}
+
+/* .first {
+    border: 1px solid red;
+    position: absolute;
+    background-color: aqua;
+    width: 100%;
+    top: 100px;
+} */
+
