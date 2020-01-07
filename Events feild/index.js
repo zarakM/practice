@@ -28,3 +28,5 @@ function check() {
   //     document.getElementById("text4").value = "My namessss"
   // }
 }
+
+document.write("Hemnasdnasllo")
