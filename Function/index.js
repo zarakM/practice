@@ -131,9 +131,20 @@
 //     console.log(num)
 // }
 
-// function addNum(num){    
-//     var someNum = 20
-//     secondFunc(someNum)
-//     console.log('Number',num)
-// }
-// addNum(10)
+function addNum(num){    
+    var someNum = 20
+    secondFunc(someNum)
+    console.log('Number',num)
+}
+
+var user = {
+    name:"",
+    email: "",
+    profile: ""
+}
+
+firebase.database().ref('users/' + userId).set({
+    name:"",
+    email: "",
+    profile: ""
+});

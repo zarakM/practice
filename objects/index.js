@@ -1,26 +1,29 @@
-var price = {
-  month: "jan",
-  amount: 800,
-  calculate: function(discount) {
-    if (this.month === "jan") {
-      var discounted_price = this.amount - discount;
-      return discounted_price;
-    } else {
-      return this.amount;
-    }
-  }
-};
+// var profile = {
+//   month: "jan",
+//   amount: 800,
+//   calculate: function(discount) {
+//     if (this.month === "jan") {
+//       var discounted_price = this.amount - discount;
+//       return discounted_price;
+//     } else {
+//       return this.amount;
+//     }
+//   }
+// };
 
-//class, methods, constructor C++
+// //class, methods, constructor C++
+
+// var date = new Date()
+// var date = new Date(" asde3")
+
+// console.log( price.calculate(100) )
 
 
 
+// // var objecta = new Price(80,6)
+// // var objectb = new Price(10,6)
+// // var objectc = new Price(30,6)
 
-
-var objecta = new Price(80,6)
-var objectb = new Price(10,6)
-var objectc = new Price(30,6)
-
-console.log( objecta.total_amount() )
-console.log( objectb.total_amount() )
-console.log( objectc.total_amount() )
+// // console.log( objecta.total_amount() )
+// // console.log( objectb.total_amount() )
+// // console.log( objectc.total_amount() )

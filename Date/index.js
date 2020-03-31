@@ -7,4 +7,8 @@
 
 // console.log( days[today_day] )
 
-console.log( new Date().getTime() )
+// console.log( new Date().getTime() )
+
+// history.go(-1)
+
+console.log(document.referrer)
